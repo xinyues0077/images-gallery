@@ -14,11 +14,12 @@ const App = () => {
     console.log(word);
   }
 
+  console.log(word);
 
   return (
     <div>
       <Header title="Images Gallery"/>
-      <Search woed={word} setWord={setWord} handleSubmit={handleSearchSubmit}/>
+      <Search word={word} setWord={setWord} handleSubmit={handleSearchSubmit}/>
     </div>
   );
 }
